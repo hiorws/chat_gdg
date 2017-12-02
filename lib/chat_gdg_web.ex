@@ -40,6 +40,7 @@ defmodule ChatGdgWeb do
       import ChatGdgWeb.Router.Helpers
       import ChatGdgWeb.ErrorHelpers
       import ChatGdgWeb.Gettext
+      import ChatGdgWeb.ViewHelper
     end
   end
 

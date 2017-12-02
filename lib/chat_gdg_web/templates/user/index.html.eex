@@ -25,4 +25,9 @@
 </table>
 
 
-<%= link "New user", to: user_path(@conn, :new) %>
+<%= link "New user", to: user_path(@conn, :new), class: "btn btn-info" %>
+
+<%= if logged_in?(@conn) do %>
+  <%= link "Chat", to: page_path(@conn, :index), class: "btn btn-success" %><br><br>
+	<% else %>
+<% end %>

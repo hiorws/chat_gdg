@@ -24,4 +24,14 @@ config :logger, :console,
 
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.
+config :guardian, Guardian,
+  allowed_algos: ["HS512"], # optional
+  verify_module: Guardian.JWT, # optional
+  issuer: "ChatGdg",
+  ttl: {30, :days},
+  allowed_drift: 2000,
+  verify_issuer: true, # optional
+  secret_key: "dY3otygFOMcX1zXEwQ11JFIQdZp0Z+C0xEF1lx5gOpef/mYrsWu28dW++FBvm7qi",
+  serializer: ChatGdg.GuardianSerializer
+
 import_config "#{Mix.env}.exs"
