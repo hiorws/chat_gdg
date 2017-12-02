@@ -47,7 +47,7 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
         - [Generate a Helper Function](#generate-a-helper-function)
         - [Show Username in the Chat Page](#show-username-in-the-chat-page)
         - [Entering Chat Room](#entering-chat-room)
-    - [Additional Source](#additional-source)
+    - [Additional Resource](#additional-resource)
 
 Table of Contents
 
@@ -1345,7 +1345,7 @@ templates/user/index.html.eex
 <% end %>
 ```
 
-## Additional Source
+## Additional Resource
 
 * [Phoenix Docs](https://hexdocs.pm/phoenix/Phoenix.html)
 * [Phoenix Book](https://pragprog.com/book/phoenix/programming-phoenix)
@@ -1355,4 +1355,4 @@ templates/user/index.html.eex
 * [Getting Started with Elixir](https://elixir-lang.github.io/getting-started/introduction.html)
 * [Getting Started with Erlang](http://erlang.org/doc/getting_started/users_guide.html)
 * [Learn You Some Erlang](http://learnyousomeerlang.com/)
-
+* [Hex.pm](https://hex.pm/)
