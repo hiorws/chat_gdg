@@ -12,8 +12,10 @@ To start finished version of the sample application written in this tutorial:
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
 ----
+## Table of Contents
 
 - [ChatGdg - GDG Izmir 2017](#chatgdg---gdg-izmir-2017)
+    - [Table of Contents](#table-of-contents)
     - [Installing Requirements and Setting Up Development Environment](#installing-requirements-and-setting-up-development-environment)
         - [Erlang 18 or later](#erlang-18-or-later)
         - [Elixir 1.4 or later](#elixir-14-or-later)
@@ -48,8 +50,6 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
         - [Show Username in the Chat Page](#show-username-in-the-chat-page)
         - [Entering Chat Room](#entering-chat-room)
     - [Additional Resource](#additional-resource)
-
-Table of Contents
 
 ## Installing Requirements and Setting Up Development Environment
 
@@ -1356,3 +1356,4 @@ templates/user/index.html.eex
 * [Getting Started with Erlang](http://erlang.org/doc/getting_started/users_guide.html)
 * [Learn You Some Erlang](http://learnyousomeerlang.com/)
 * [Hex.pm](https://hex.pm/)
+* [How Discord Scaled Elixir to 5,000,000 Concurrent Users](https://blog.discordapp.com/scaling-elixir-f9b8e1e7c29b)
